@@ -1,0 +1,14 @@
+@import "tailwindcss";
+/* *{
+  border: 1px solid red 
+} */
+body{
+  font-family: "Manrope", sans-serif;
+}
+
+.signIn{
+    background-image: url('./assets/SignUp/cuate.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
