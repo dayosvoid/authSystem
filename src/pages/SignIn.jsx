@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/signUp/inklune.png"
+import logo from "../assets/auth/inklune.png"
 
 const SignIn = () => {
   return (
@@ -11,7 +11,7 @@ const SignIn = () => {
             </span>
             {/* welcome */}
             <div className='flex flex-col gap-2'>
-                <h2 className='text-4xl font-bold text-center'>Welcome Back</h2> 
+                <h2 className='text-4xl font-bold text-center text-gray-800'>Welcome Back</h2> 
                 <p className='text-base text-gray-600 py-1 tracking-wide text-center '>Sign in to Continue your writing journey</p>
             </div>
 
@@ -19,7 +19,7 @@ const SignIn = () => {
                 <form action="" className='flex flex-col gap-5'>
                     <div className='flex flex-col'>
                         <label htmlFor="" className='text-sm text-gray-600 py-1'>Email Address</label>
-                        <input type="text" name="" id="" placeholder='johndoe@gmail.com' className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-2 pr-4'/>
+                        <input type="text" name="" id="" placeholder='johndoe@gmail.com' className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-3 pr-4'/>
                     </div>
 
                     <div className='flex flex-col '>
@@ -28,10 +28,10 @@ const SignIn = () => {
                             <label htmlFor="" className='text-sm text-gray-600 py-1'>Password</label>
                             <a href="" className='text-[hsla(256,90%,68%,1)] text-sm'>Forget Password?</a>
                         </span>
-                        <input type="text" name="" id="" placeholder='*********' className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-2 pr-4'/>
+                        <input type="text" name="" id="" placeholder='*********' className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-3 pr-4'/>
                     </div>
 
-                    <button className='bg-[hsla(256,90%,68%,1)] text-white text-sm font-xl py-2.5 rounded-sm w-full '>
+                    <button className='bg-[hsla(256,90%,68%,1)] hover:bg-[hsla(256,54%,56%,1.00)] hover:cursor-pointer text-white text-sm font-xl py-2.5 rounded-sm w-full '>
                         Sign In
                     </button>
                 </form>

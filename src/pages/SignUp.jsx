@@ -1,7 +1,7 @@
 import React from 'react'
-import img from "../assets/signUp/cuate.png"
-import logo from "../assets/signUp/inklune.png"
-import google  from '../assets/SignUp/google.png'
+import img from "../assets/auth/cuate.png"
+import logo from "../assets/auth/inklune.png"
+import google  from '../assets/auth/google.png'
 
 
 const SignUp = () => {
@@ -23,7 +23,7 @@ const SignUp = () => {
                     <span>
                         <img src={logo} alt="" className='w-[120px]'/>
                     </span>
-                    <h2 className='text-[28px] font-semibold'>Create your account</h2>
+                    <h2 className='text-[28px] font-semibold text-gray-800'>Create your account</h2>
                     <p className='text-center text-sm text-gray-500 '>join INKLUNE and start sharing your stories with the <br /> world</p>
                 </div>
 
@@ -32,28 +32,28 @@ const SignUp = () => {
                     {/* Fullname */}
                     <div className='flex flex-col'>
                         <label htmlFor="" className='text-sm text-gray-600 py-1'>Fullname </label>
-                        <input type="text" placeholder='john doe' className=' outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-2 pr-4'/>
+                        <input type="text" placeholder='john doe' className=' outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-3 pr-4'/>
                     </div>
 
                     {/* Email */}
                     <div className='flex flex-col'>
                         <label htmlFor="" className='text-sm text-gray-600 py-1'>Email </label>
-                        <input type="text" placeholder='johndoe@gmail.com' className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-2 pr-4' />
+                        <input type="text" placeholder='johndoe@gmail.com' className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-3 pr-4' />
                     </div>
                     
                     {/* Password */}
                     <div className='flex flex-col'>
                         <label htmlFor="" className='text-sm text-gray-600 py-1'>Password</label>
-                        <input type="text" placeholder='********' className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-2 pr-4'/>
+                        <input type="text" placeholder='********' className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-3 pr-4'/>
                     </div>
 
                     {/* Comfirm password */}
                     <div className='flex flex-col'>
                         <label htmlFor="" className='text-sm text-gray-600 py-1'>Comfirm password </label>
-                        <input type="text" placeholder='********'  className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-2 pr-4'/>
+                        <input type="text" placeholder='********'  className='outline outline-1 outline-gray-400 rounded-sm text-sm py-2 pl-3 pr-4'/>
                     </div>
 
-                    <button className='bg-[hsla(256,90%,68%,1)] text-white text-sm font-xl py-2.5 rounded-sm'>
+                    <button className='bg-[hsla(256,90%,68%,1)] hover:bg-[hsla(256,54%,56%,1.00)] hover:cursor-pointer text-white text-sm font-xl py-2.5 rounded-sm'>
                         Sign up
                     </button>
 
