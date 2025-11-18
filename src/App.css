@@ -1,5 +1,5 @@
 @import "tailwindcss";
-/* *{
+ /* *{
   border: 1px solid red 
 } */
 body{
@@ -8,6 +8,13 @@ body{
 
 .signIn{
     background-image: url('./assets/SignUp/cuate.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.resetPassword{
+    background-image: url('./assets/auth/frame 56.png');
     background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
